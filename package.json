@@ -1,0 +1,14 @@
+{
+  "name": "github-assignment",
+  "version": "1.0.0",
+  "description": "Seneca INM420 Git Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
