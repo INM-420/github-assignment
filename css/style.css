@@ -1,5 +1,4 @@
-/* imports  */
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* add css imports here  */
 
 /* style resets */
 h1,
@@ -15,15 +14,93 @@ svg {
 body {
   font-family: "Inter", sans-serif;
 }
-
-/* other styling */
-
-.container {
-  position: relative;
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+/* Customize your sections!*/
+#yonge {
+  background-color: #ffcccc;
+}
+
+#jaynyfe {
+  background-color: #ccffcc;
+}
+
+#nabin {
+  text-align: left;
+}
+
+#waiyeung {
+  background-color: #ffcc99;
+}
+
+#diksha {
+  background-color: #ffffcc;
+}
+
+#mariana {
+  background-color: #ccffff;
+}
+
+#aaditya {
+  background-color: #ffccff;
+}
+
+#marylour {
+  background-color: #d9d9d9;
+}
+
+#balaji {
+  background-color: #ffebcc;
+}
+
+#apple {
+  background-color: #cce6ff;
+}
+
+#beth {
+  background-color: #ffb3b3;
+}
+
+#didem {
+  background-color: #c6ecc6;
+}
+
+#thulasi {
+  background-color: #b3b3ff;
+}
+
+#vanessa {
+  background-color: #ffcccb;
+}
+
+#peiwen {
+  background-color: #c1f0f0;
+}
+
+/* Nabin's card styling from here */
 .card {
   margin: auto;
-  width: 300px;
+  max-width: 300px;
   background-color: azure;
   border: 1px solid #f8f8f8;
   border-radius: 10px;
@@ -34,6 +111,7 @@ body {
   justify-content: space-between;
 }
 .profile-graphic {
+  content: "";
   width: 100%;
   height: 300px;
   background-image: linear-gradient(
@@ -45,10 +123,11 @@ body {
 }
 
 .title-container h1 {
-  font-size: 24px;
+  font-size: 36px;
 }
 .title-container p {
-  font-size: 16px;
+  font-size: 20px;
+  margin-top: 5px;
   margin: 0;
 }
 .triangular-shape {
@@ -56,7 +135,6 @@ body {
   border-right: 2px solid #444cf7;
   width: 20px;
   height: 100%;
-
   background-color: #e5e5f7;
   opacity: 0.8;
   background-image: radial-gradient(
