@@ -90,15 +90,15 @@ header {
 }
 
 #apple {
-  background-color: #cce6ff;
-  border: 2px solid #007bff; 
+  background-color: #41e410;
+  /* border: 2px solid #007bff; 
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   font-size: 20px;
   font-family: Arial, sans-serif;
-  transition: transform 0.2s, box-shadow 0.2s; 
+  transition: transform 0.2s, box-shadow 0.2s;  */
 }
 
 #beth {
