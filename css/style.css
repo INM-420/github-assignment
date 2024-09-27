@@ -37,6 +37,7 @@ header {
 }
 
 /* Customize your sections!*/
+
 #yonge {
   background-color: #ffcccc;
 }
@@ -57,8 +58,21 @@ header {
   background-color: #ffffcc;
 }
 
+/* MARIANA */
 #mariana {
-  background-color: #ccffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  background-color: #e5e5f7;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#mariana img {
+  width: 150px;
+  height: auto;
+  border-radius: 20%;
 }
 
 #aaditya {
