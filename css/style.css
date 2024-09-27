@@ -197,3 +197,22 @@ header {
   border-radius: 20%;
 
 }
+
+/* Wai Yeung Lam Start */
+#waiyeung {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-size: x-large;
+}
+
+#waiyeung img {
+  width: 50%;
+  height: auto;
+  transition: all ease 1s;
+}
+
+#waiyeung img:hover {
+  width: 80%;
+  height: auto;
+  transition: all ease 1s;
+}
+/* Wai Yeung Lam End */
