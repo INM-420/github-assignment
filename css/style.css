@@ -1,5 +1,5 @@
 /* add css imports here  */
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 /* style resets */
 h1,
 h4,
@@ -44,6 +44,36 @@ header {
 
 #jaynyfe {
   background-color: #ccffcc;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif; 
+}
+
+#jaynyfe h1 {
+  font-size: 24px;
+  color: #2a5d34;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+#jaynyfe #piceffect img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%; 
+  transition: transform 0.5s ease;
+}
+
+#jaynyfe #piceffect img:hover {
+  transform: scale(1.1); 
+}
+
+#jaynyfe img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #6fae75; 
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
 }
 
 #nabin {
@@ -123,9 +153,22 @@ header {
   margin-top: 15px;
 }
 
-
 #beth {
   background-color: #ffb3b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #80FFFF;
+  text-shadow: 0px 0px 8px #B3FFFF;
+}
+#beth img {
+  width: 100%;
+  border-radius: 1em;
 }
 
 #didem {
@@ -229,3 +272,22 @@ header {
   border-radius: 20%;
 
 }
+
+/* Wai Yeung Lam Start */
+#waiyeung {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-size: x-large;
+}
+
+#waiyeung img {
+  width: 50%;
+  height: auto;
+  transition: all ease 1s;
+}
+
+#waiyeung img:hover {
+  width: 80%;
+  height: auto;
+  transition: all ease 1s;
+}
+/* Wai Yeung Lam End */
