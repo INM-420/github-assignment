@@ -466,7 +466,15 @@ font-family: "Playwrite ZA", cursive;
 
 
 #seoyeongkim {
-  color: #444cf7;
+  background-color: #444cf7;
+}
+
+#seoyeongkim img{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: solid rgb(37, 164, 243);
+  margin-top: 80px;
 }
 
 @keyframes bounce {
