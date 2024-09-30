@@ -63,6 +63,33 @@ header {
 }
 
 
+#tobi-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5f2a;
+}
+#tobi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5f2a;
+}
+
+#tobi-img{
+  width: 360px;
+  height: 450px; 
+}
+
+#tobi-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px 20px;
+}
+
 #jaynyfe {
   background-color: #ccffcc;
   padding: 20px;
