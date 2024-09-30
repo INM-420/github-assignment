@@ -476,7 +476,18 @@ font-family: "Playwrite ZA", cursive;
   border: solid rgb(37, 164, 243);
   margin-top: 80px;
 }
+#seoyeongkim h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: papayawhip;
+   background-color: #31389e;
+   border-radius: 3px;
+   margin-top: 50px;
+   font-size: 30px;
+  }
 
+
+
+  
 @keyframes bounce {
   50% {
       transform: translateY(-30px); 
