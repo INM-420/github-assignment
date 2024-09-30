@@ -433,6 +433,10 @@ font-family: "Playwrite ZA", cursive;
   animation: bounce 0.5s ease infinite;
 }
 
+#jukyung {
+  color: #3e8e41;
+}
+
 @keyframes bounce {
   50% {
       transform: translateY(-30px); 
