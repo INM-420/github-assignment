@@ -437,8 +437,14 @@ font-family: "Playwrite ZA", cursive;
   color: #3e8e41;
 }
 
+
+#seoyeongkim {
+  color: #444cf7;
+}
+
 @keyframes bounce {
   50% {
       transform: translateY(-30px); 
   }
 }
+
