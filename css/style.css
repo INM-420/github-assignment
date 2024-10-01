@@ -816,3 +816,22 @@ header {
 }
 
 /* Vanessa end */
+
+#Sebastian {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#Sebastian img {
+  width: 50%;
+  height: auto;
+  transition: all ease 1s;
+}
+
+#Sebastian img:hover {
+  width: 80%;
+  height: auto;
+  transition: all ease 1s;
+}
