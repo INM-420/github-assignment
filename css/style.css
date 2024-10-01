@@ -158,6 +158,24 @@ header {
   border-radius: 20%;
 }
 
+#lana {
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  background-color: white;
+  border-radius: 15px;
+  font-family: "Afacad Flux", sans-serif;  
+  font-weight: 100;
+}
+#lana-name {
+  background-color: #3c3cc4;
+  color: white;
+  border-radius: 20px;
+}
+#lana-img {
+  align-items: center;
+  width: 300px;
+}
 
 /*  */
 
