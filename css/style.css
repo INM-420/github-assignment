@@ -492,6 +492,26 @@ font-family: "Playwrite ZA", cursive;
     background-color: #43e2ed;
   }
 
+  #tingyeung {
+    background-color: rgb(208, 131, 157);
+  }
+
+  #tingyeung img{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #tingyeung h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+
+  #tingyeung p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+  }
   
 @keyframes bounce {
   50% {
