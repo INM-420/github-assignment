@@ -1,6 +1,9 @@
 /* add css imports here  */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* style resets */
 h1,
@@ -62,6 +65,33 @@ header {
   margin: 20px 0;
 }
 
+
+#tobi-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5f2a;
+}
+#tobi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5f2a;
+}
+
+#tobi-img{
+  width: 360px;
+  height: 450px; 
+}
+
+#tobi-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px 20px;
+}
 
 #jaynyfe {
   background-color: #ccffcc;
@@ -450,6 +480,126 @@ font-family: "Playwrite ZA", cursive;
 #marylour img:hover {
   animation: bounce 0.5s ease infinite;
 }
+
+#jukyung {
+  color: #3e8e41;
+}
+
+
+#seoyeongkim {
+  background-color: #e8e8f6;
+}
+
+#seoyeongkim img{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: solid rgb(37, 164, 243);
+  margin-top: 80px;
+}
+#seoyeongkim h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(85, 78, 226);
+   border-radius: 3px;
+   margin-top: 50px;
+   font-size: 30px;
+  }
+
+/* Wing Ho Li Start */
+#wingho {
+  background-color: #32adda;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+/* Wing Ho Li End */
+
+#tingyeung {
+  background-color: rgb(255, 127, 159);
+}
+
+#tingyeung h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+#tingyeung img{
+  width: 350px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#tingyeung p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+}
+
+/* Wangtakleung */
+#Wangtakleung {
+  width: 400px;
+  height: 550px;
+  font-family: "Permanent Marker", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 50px;
+  color: rgb(12, 40, 23);
+  background-color: rgb(193, 189, 143);
+  border-color: rgb(12, 40, 23);
+  border-radius: 9px;
+  border-style: double;
+  border-width: 15px;
+}
+
+#Wangtakleung > img {
+  width: 350px;
+  height: 350px;
+  padding-top: 30px;
+  transition: 1s ease;
+}
+
+#Wangtakleung > img:hover{
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+#Com {
+  padding-top: 38px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* Wangtakleung End */
+  
+
+/* Gabe Escalaw */
+#gabeEscalaw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+  background-color: antiquewhite;
+}
+
+#name-gabe {
+  color: #2a5d34;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+#gabe-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50px;
+}
+
 
 @keyframes bounce {
   50% {
