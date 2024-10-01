@@ -21,6 +21,7 @@ svg {
 body {
   font-family: "Inter", sans-serif;
 }
+
 header {
   background-color: #c1dff0;
   padding: 20px;
@@ -29,7 +30,8 @@ header {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columns */
   gap: 10px;
   padding: 20px;
 }
@@ -52,10 +54,10 @@ header {
   background-color: #41266E;
 }
 
-#choi-img{
+#choi-img {
   width: 300px;
   height: 300px;
-  border-radius: 30%; 
+  border-radius: 30%;
 }
 
 #choi-name {
@@ -74,6 +76,7 @@ header {
   align-items: center;
   background-color: #1e5f2a;
 }
+
 #tobi-container {
   display: flex;
   justify-content: center;
@@ -81,9 +84,9 @@ header {
   background-color: #1e5f2a;
 }
 
-#tobi-img{
+#tobi-img {
   width: 360px;
-  height: 450px; 
+  height: 450px;
 }
 
 #tobi-name {
@@ -101,32 +104,32 @@ header {
   border: 2px solid #333;
   border-radius: 10px;
   text-align: center;
-  font-family: "Aclonica", sans-serif; 
+  font-family: "Aclonica", sans-serif;
 }
 
 #jaynyfe #nameDecor {
   font-size: 50px;
   color: #2a5d34;
   margin-bottom: 15px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 #jaynyfe #piceffect img {
   width: 250px;
   height: auto;
-  border-radius: 30%; 
+  border-radius: 30%;
   transition: transform 0.5s ease;
 }
 
 #jaynyfe #piceffect img:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 #jaynyfe img {
   max-width: 100%;
   height: auto;
-  border: 3px solid #6fae75; 
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
+  border: 3px solid #6fae75;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 #nabin {
@@ -152,7 +155,7 @@ header {
   color: #e5f04a;
 }
 
-#diksha img{
+#diksha img {
   width: 160px;
   height: auto;
   padding: 20px;
@@ -170,6 +173,7 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 #mariana img {
   width: 150px;
   height: auto;
@@ -179,17 +183,19 @@ header {
 #lana {
   display: flex;
   align-items: center;
-  justify-content:  center;
+  justify-content: center;
   background-color: white;
   border-radius: 15px;
-  font-family: "Afacad Flux", sans-serif;  
+  font-family: "Afacad Flux", sans-serif;
   font-weight: 100;
 }
+
 #lana-name {
   background-color: #3c3cc4;
   color: white;
   border-radius: 20px;
 }
+
 #lana-img {
   align-items: center;
   width: 300px;
@@ -232,10 +238,10 @@ header {
   height: 400px;
 }
 
-.image-aadi img{
+.image-aadi img {
   border-radius: 25px;
   border: 5px solid #000;
-  max-width: 100%;  
+  max-width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -262,24 +268,25 @@ header {
   border-radius: 20px;
   display: inline-block;
   font-size: 22px;
-  
+
 }
 
 .button:active {
-  transform: translateY(2px); 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-  background-color: #3e8e41; 
+  transform: translateY(2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #3e8e41;
 }
 
 .button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049;
+  /* Darker green on hover */
 }
 
 .button img {
   margin-right: 10px;
-height: 35px;
-width: 35px;
-vertical-align: middle;
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
 }
 
 
@@ -293,20 +300,20 @@ vertical-align: middle;
 
 #balaji {
   background-color: #ffebcc;
- 
+
 }
 
 #apple {
   background-color: #F0EDCC;
-  border: 2px solid #171d23; 
+  border: 2px solid #171d23;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
   font-size: 40px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#apple h1{
+#apple h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   margin-bottom: 15px;
   color: #02343F;
@@ -315,17 +322,18 @@ vertical-align: middle;
 #apple img {
   width: 150px;
   height: auto;
-  border-radius: 50%; 
+  border-radius: 50%;
   margin-top: 10px;
 }
+
 #apple img:hover {
-  transform: rotate(360deg); 
+  transform: rotate(360deg);
   transition: transform 1s ease-in-out;
 }
 
 #apple h5 {
   text-align: center;
-  font-size: 18px; 
+  font-size: 18px;
   color: #02343F;
   margin-top: 15px;
 }
@@ -343,6 +351,7 @@ vertical-align: middle;
   color: #80FFFF;
   text-shadow: 0px 0px 8px #B3FFFF;
 }
+
 #beth img {
   width: 100%;
   border-radius: 1em;
@@ -377,26 +386,27 @@ vertical-align: middle;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .profile-graphic {
   content: "";
   width: 100%;
   height: 300px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(98, 255, 237, 1) 0%,
-    rgba(121, 183, 255, 1) 100%
-  );
+  background-image: linear-gradient(90deg,
+      rgba(98, 255, 237, 1) 0%,
+      rgba(121, 183, 255, 1) 100%);
   border-radius: 150px 2px 150px 2px;
 }
 
 .title-container h1 {
   font-size: 36px;
 }
+
 .title-container p {
   font-size: 20px;
   margin-top: 5px;
   margin: 0;
 }
+
 .triangular-shape {
   border-left: 2px solid #444cf7;
   border-right: 2px solid #444cf7;
@@ -404,14 +414,13 @@ vertical-align: middle;
   height: 100%;
   background-color: #e5e5f7;
   opacity: 0.8;
-  background-image: radial-gradient(
-    ellipse farthest-corner at 5px 5px,
-    #444cf7,
-    #444cf7 50%,
-    #e5e5f7 50%
-  );
+  background-image: radial-gradient(ellipse farthest-corner at 5px 5px,
+      #444cf7,
+      #444cf7 50%,
+      #e5e5f7 50%);
   background-size: 5px 5px;
 }
+
 .bottom-container {
   margin-top: 20px;
   display: flex;
@@ -426,6 +435,7 @@ vertical-align: middle;
   border-radius: 5px;
   align-items: center;
 }
+
 .socials {
   display: flex;
 }
@@ -437,12 +447,13 @@ vertical-align: middle;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 200;
-  background-color: #e5e5f7; 
+  background-color: #e5e5f7;
   padding: 20px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .container-Mariana img {
   width: 150px;
   height: auto;
@@ -467,29 +478,30 @@ vertical-align: middle;
   height: auto;
   transition: all ease 1s;
 }
+
 /* Wai Yeung Lam End */
 
 
 /* Card Styling for Marylour Pulido */
-#marylour h1{
-font-family: "Playwrite ZA", cursive;
- color: white;
- background-color: #31389e;
- border: 3px solid rgb(255, 255, 255);
- border-radius: 3px;
- margin-top: 50px;
- font-size: 40px;
+#marylour h1 {
+  font-family: "Playwrite ZA", cursive;
+  color: white;
+  background-color: #31389e;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  margin-top: 50px;
+  font-size: 40px;
 }
 
-#marylour h1:hover{
+#marylour h1:hover {
   animation: bounce 0.5s ease infinite;
 }
 
-#marylour{
+#marylour {
   background-color: #95b9df;
 }
 
-#marylour img{
+#marylour img {
   width: 350px;
   height: auto;
   border-radius: 10px;
@@ -503,11 +515,11 @@ font-family: "Playwrite ZA", cursive;
 
 #jukyung {
   background-color: rgb(255, 194, 220);
-  border: 5px dotted #0080ff; 
+  border: 5px dotted #0080ff;
   border-radius: 10px;
 }
 
-#jukyung h1{
+#jukyung h1 {
   color: #3e538e;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
@@ -533,20 +545,21 @@ font-family: "Playwrite ZA", cursive;
   background-color: #e8e8f6;
 }
 
-#seoyeongkim img{
+#seoyeongkim img {
   width: 300px;
   height: auto;
   border-radius: 5px;
   border: solid rgb(37, 164, 243);
   margin-top: 80px;
 }
-#seoyeongkim h1{
+
+#seoyeongkim h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(85, 78, 226);
-   border-radius: 3px;
-   margin-top: 50px;
-   font-size: 30px;
-  }
+  border-radius: 3px;
+  margin-top: 50px;
+  font-size: 30px;
+}
 
 /* Wing Ho Li Start */
 #wingho {
@@ -563,28 +576,29 @@ font-family: "Playwrite ZA", cursive;
 
 /*Anita*/
 
-#AnitaHon{
+#AnitaHon {
   background-color: #f2f2ef;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-}  
+}
+
 #tingyeung {
   background-color: rgb(255, 127, 159);
 }
 
-#tingyeung h1{
+#tingyeung h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: whitesmoke;
   font-weight: 900;
 }
 
-#tingyeung img{
+#tingyeung img {
   width: 350px;
   height: auto;
   border-radius: 50%;
 }
 
-#tingyeung p{
+#tingyeung p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: whitesmoke;
 }
@@ -606,14 +620,14 @@ font-family: "Playwrite ZA", cursive;
   border-width: 15px;
 }
 
-#Wangtakleung > img {
+#Wangtakleung>img {
   width: 350px;
   height: 350px;
   padding-top: 30px;
   transition: 1s ease;
 }
 
-#Wangtakleung > img:hover{
+#Wangtakleung>img:hover {
   transform: scale(0.8);
   transition: 1s ease;
 }
@@ -625,36 +639,41 @@ font-family: "Playwrite ZA", cursive;
 }
 
 /* Wangtakleung End */
-  
+
 /* Jane Chen starts */
-#janechen{
+#janechen {
   background-color: rgb(36, 36, 36);
   background-image: url(../img/JaneChenBg.jpg);
   background-size: cover;
 }
-#janechen > p{
+
+#janechen>p {
   color: white;
   font-family: 'Courier New', Courier, monospace;
 }
-#janechen > img{
+
+#janechen>img {
   width: 70%;
   border-radius: 100px;
   margin: 20px 0px;
   transition: ease-in-out 0.5s;
 }
-#janechen > img:hover{
+
+#janechen>img:hover {
   transform: scale(1.1);
 }
-#janechen > h1{
+
+#janechen>h1 {
   font-size: 20px;
   color: white;
   font-family: "Archivo Black", sans-serif;
 }
+
 /* Jane Chen ends */
 
 /* Jia xu */
 #jiaXu {
-  color:rgb(245, 97, 122);
+  color: rgb(245, 97, 122);
   background-color: #32adda;
   font-size: 50px;
   font-family: "Playwrite AT", cursive;
@@ -664,16 +683,19 @@ font-family: "Playwrite ZA", cursive;
   align-items: center;
   text-shadow: 2px 2px 5px rgba(255, 255, 255, 1);
 }
+
 #jiaXu img {
-  width:50%;
+  width: 50%;
   border-radius: 50%;
   transition: transform 0.5s ease;
 }
+
 #jiaXu img:hover {
-  width:50%;
+  width: 50%;
   border-radius: 50%;
   transform: scale(1.2);
 }
+
 /* Jia end */
 
 /* Gabe Escalaw */
@@ -703,7 +725,7 @@ font-family: "Playwrite ZA", cursive;
 
 @keyframes bounce {
   50% {
-      transform: translateY(-30px); 
+    transform: translateY(-30px);
   }
 }
 
@@ -725,13 +747,14 @@ font-family: "Playwrite ZA", cursive;
 
 #makusMa img {
   width: 50%;
-  border-radius: 50%; 
+  border-radius: 50%;
   transition: transform 0.5s ease;
 }
 
-#makusMa img:hover {  
+#makusMa img:hover {
   animation: bounce 0.5s ease infinite;
 }
+
 /* Makus end */
 
 /* Wing Faat Fung */
@@ -748,4 +771,90 @@ font-family: "Playwrite ZA", cursive;
 #WingFaatFung img {
   padding-top: 2em;
   border-radius: 15px;
+}
+
+/* Gavin start */
+#GavinChiang {
+  color: rgb(255, 255, 255);
+  background-color: #783131;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 15px;
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 95%;
+}
+
+#GavinChiang img {
+  width: 50%;
+  border-radius: 50%;
+  transition: transform 0.4s ease;
+}
+
+#GavinChiang img:hover {
+  animation: bounce 0.3s ease infinite;
+}
+
+/* Gavin end */
+
+/* Vanessa start */
+
+#vanessa h1,
+#vanessa p {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#vanessa img {
+  border-radius: 80%;
+  transform: rotateY(180deg)
+}
+
+/* Vanessa end */
+
+
+/* Hoi Kwan Cheung start*/
+#hoikwancheung {
+  color: rgb(206, 173, 27);
+  background-color: #0a3e72;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hoikwancheung img {
+  width: 30%;
+  border-radius: 30px;
+  transition: transform 0.4s ease;
+  margin: 20px 0px;
+}
+
+/* Hoi Kwan Cheung end*/
+
+#Sebastian {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#Sebastian img {
+  width: 50%;
+  height: auto;
+  transition: all ease 2s;
+}
+
+#Sebastian img:hover {
+  width: 75%;
+  height: auto;
+  transition: all ease 2s;
 }
