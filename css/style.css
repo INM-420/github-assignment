@@ -436,17 +436,20 @@ font-family: "Playwrite ZA", cursive;
 }
 
 #jukyung {
+  background-color: rgb(255, 194, 220);
+  border: 5px solid #0080ff; 
+  border-radius: 10px;
+}
+
+#jukyung h1{
   color: #3e538e;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  background-color: cornsilk;
   text-align: center;
 }
 
 #jukyung img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 #jukyung img:hover {
