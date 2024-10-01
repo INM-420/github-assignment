@@ -485,12 +485,19 @@ font-family: "Playwrite ZA", cursive;
    font-size: 30px;
   }
 
-  #wingho {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #43e2ed;
-  }
+/* Wing Ho Li Start */
+#wingho {
+  background-color: #32adda;
+  font-size: 100px;
+}
+
+#wingho img {
+  width: 50%;
+  height: auto;
+}
+
+
+/* Wing Ho Li End */
 
   
 @keyframes bounce {
