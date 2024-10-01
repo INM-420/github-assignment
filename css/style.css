@@ -437,7 +437,7 @@ font-family: "Playwrite ZA", cursive;
 
 #jukyung {
   background-color: rgb(255, 194, 220);
-  border: 5px solid #0080ff; 
+  border: 5px dotted #0080ff; 
   border-radius: 10px;
 }
 
@@ -448,8 +448,8 @@ font-family: "Playwrite ZA", cursive;
 }
 
 #jukyung img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 #jukyung img:hover {
