@@ -489,10 +489,11 @@ font-family: "Playwrite ZA", cursive;
 /* Wing Ho Li Start */
 #wingho {
   background-color: #32adda;
-  font-size: 50px;
+  font-size: 60px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #wingho img{
+
   width: 150px;
 }
 /* Wing Ho Li End */
