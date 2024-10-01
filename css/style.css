@@ -1,6 +1,7 @@
 /* add css imports here  */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 
 /* style resets */
 h1,
@@ -488,13 +489,11 @@ font-family: "Playwrite ZA", cursive;
 /* Wing Ho Li Start */
 #wingho {
   background-color: #32adda;
-  font-size: 100px;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#wingho img {
-  width: 50%;
-  height: auto;
-}
+
 
 
 /* Wing Ho Li End */
