@@ -541,7 +541,12 @@ font-family: "Playwrite ZA", cursive;
   width: 350px;
   height: 350px;
   padding-top: 30px;
-  transition: 1s;
+  transition: 1s ease;
+}
+
+#Wangtakleung > img:hover{
+  transform: scale(0.8);
+  transition: 1s ease;
 }
 
 #Com {
