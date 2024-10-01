@@ -138,7 +138,25 @@ header {
 }
 
 #diksha {
-  background-color: #ffffcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d0e1d;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px;
+  color: #e5f04a;
+}
+
+#diksha img{
+  width: 160px;
+  height: auto;
+  padding: 20px;
+  border-radius: 120px;
 }
 
 /* MARIANA */
