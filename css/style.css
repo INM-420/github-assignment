@@ -683,3 +683,21 @@ font-family: "Playwrite ZA", cursive;
       transform: translateY(-30px); 
   }
 }
+
+
+/* Wing Faat Fung */
+#WingFaatFung {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3f2b27;
+  background-color: #f5f3e0;
+  text-shadow: 1px 1px 4px #3f2b27;;
+}
+#wingfaat-img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 2.5em;
+  border-radius: 15px;
+}
