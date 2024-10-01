@@ -442,3 +442,35 @@ font-family: "Playwrite ZA", cursive;
       transform: translateY(-30px); 
   }
 }
+
+/* Wang Tak Leung */
+#Wangtakleung{
+  height: 400px;
+  background-color: #bab990;
+  color: #283315;
+  font-family:  "Permanent Marker", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  border: #534b26;
+  border-style: double;
+  border-width: 15px;
+  border-radius: 9px;
+}
+
+#Wangtakleung>img{
+  width: 300px;
+  height: 300px;
+  padding-top: 13px;
+  transition: 1s ease;
+}
+
+#Wangtakleung>img:hover{
+  transition: 1s ease;
+  transform: scale(0.8);
+}
+
+#Com{
+  padding-top: 30px;
+  font-style: italic;
+}
