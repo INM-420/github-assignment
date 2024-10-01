@@ -1,6 +1,7 @@
 /* add css imports here  */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* style resets */
 h1,
@@ -437,4 +438,37 @@ font-family: "Playwrite ZA", cursive;
   50% {
       transform: translateY(-30px); 
   }
+}
+
+/* Gabe Escalaw */
+#gabeEscalaw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+  background-color: antiquewhite;
+}
+
+.container-gabe {
+
+
+}
+
+#name-gabe {
+  color: #2a5d34;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+#image-gabe {
+
+}
+
+#gabe-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50px;
 }
