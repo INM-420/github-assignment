@@ -839,3 +839,22 @@ header {
 }
 
 /* Hoi Kwan Cheung end*/
+
+#Sebastian {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#Sebastian img {
+  width: 50%;
+  height: auto;
+  transition: all ease 2s;
+}
+
+#Sebastian img:hover {
+  width: 75%;
+  height: auto;
+  transition: all ease 2s;
+}
