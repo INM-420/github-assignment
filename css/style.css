@@ -63,6 +63,33 @@ header {
 }
 
 
+#tobi-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5f2a;
+}
+#tobi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e5f2a;
+}
+
+#tobi-img{
+  width: 360px;
+  height: 450px; 
+}
+
+#tobi-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 20px 20px;
+}
+
 #jaynyfe {
   background-color: #ccffcc;
   padding: 20px;
@@ -437,40 +464,44 @@ font-family: "Playwrite ZA", cursive;
   color: #3e8e41;
 }
 
+
+#seoyeongkim {
+  background-color: #444cf7;
+}
+
+#seoyeongkim img{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  border: solid rgb(37, 164, 243);
+  margin-top: 80px;
+}
+#seoyeongkim h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: papayawhip;
+   background-color: #31389e;
+   border-radius: 3px;
+   margin-top: 50px;
+   font-size: 30px;
+  }
+
+/* Wing Ho Li Start */
+#wingho {
+  background-color: #32adda;
+  font-size: 100px;
+}
+
+#wingho img {
+  width: 50%;
+  height: auto;
+}
+
+
+/* Wing Ho Li End */
+
+  
 @keyframes bounce {
   50% {
       transform: translateY(-30px); 
   }
-}
-
-/* Wang Tak Leung */
-#Wangtakleung{
-  height: 400px;
-  background-color: #bab990;
-  color: #283315;
-  font-family:  "Permanent Marker", cursive;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  border: #534b26;
-  border-style: double;
-  border-width: 15px;
-  border-radius: 9px;
-}
-
-#Wangtakleung>img{
-  width: 300px;
-  height: 300px;
-  padding-top: 13px;
-  transition: 1s ease;
-}
-
-#Wangtakleung>img:hover{
-  transition: 1s ease;
-  transform: scale(0.8);
-}
-
-#Com{
-  padding-top: 30px;
-  font-style: italic;
 }
