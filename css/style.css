@@ -492,12 +492,44 @@ font-family: "Playwrite ZA", cursive;
   font-size: 50px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
-
-
 /* Wing Ho Li End */
 
+/* Wang Tak Leung */
+#Wangtakleung{
+  width: 400px;
+  height: 550px;
+  font-family: "Permanent Marker", system-ui;
+  font-weight: 500;
+  font-style: normal; 
+  font-size: 25px;
+  padding-top: 50px;
+  color: #0c2817;
+  background-color: #c1bd8f;
+  border-color: #0c2817;
+  border-radius: 9px;
+  border-style: double;
+  border-width: 15px;
+}
+
+#Wangtakleung>img{
+  width: 350px;
+  height: 350px;
+  padding-top: 30px;
+  transition: 1s ease;
+}
+
+#Wangtakleung>img:hover{
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+#Com{
+  padding-top: 38px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* Wangtakleung end */
   
 @keyframes bounce {
   50% {
