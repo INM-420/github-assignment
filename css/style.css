@@ -746,6 +746,7 @@ font-family: "Playwrite ZA", cursive;
 }
 
 #WingFaatFung img {
+  height: auto;
   padding-top: 2em;
   border-radius: 15px;
 }
