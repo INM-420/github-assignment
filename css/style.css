@@ -816,3 +816,26 @@ header {
 }
 
 /* Vanessa end */
+
+
+/* Hoi Kwan Cheung start*/
+#hoikwancheung {
+  color: rgb(206, 173, 27);
+  background-color: #0a3e72;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hoikwancheung img {
+  width: 30%;
+  border-radius: 30px;
+  transition: transform 0.4s ease;
+  margin: 20px 0px;
+}
+
+/* Hoi Kwan Cheung end*/
