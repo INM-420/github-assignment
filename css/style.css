@@ -575,6 +575,31 @@ font-family: "Playwrite ZA", cursive;
 
 /* Wangtakleung End */
   
+/* Jane Chen starts */
+#janechen{
+  background-color: rgb(36, 36, 36);
+  background-image: url(../img/JaneChenBg.jpg);
+  background-size: cover;
+}
+#janechen > p{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+#janechen > img{
+  width: 70%;
+  border-radius: 100px;
+  margin: 20px 0px;
+  transition: ease-in-out 0.5s;
+}
+#janechen > img:hover{
+  transform: scale(1.1);
+}
+#janechen > h1{
+  font-size: 20px;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+/* Jane Chen ends */
 
 /* Gabe Escalaw */
 #gabeEscalaw {
