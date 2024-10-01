@@ -447,6 +447,12 @@ font-family: "Playwrite ZA", cursive;
   text-align: center;
 }
 
+#jukyung h1:hover {
+  color: #4046ff;
+  transform: scale(1.2) translateY(-10px);
+  transition: all 0.3s ease;
+}
+
 #jukyung img {
   width: 150px;
   height: 150px;
