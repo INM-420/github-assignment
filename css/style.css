@@ -893,4 +893,11 @@ header {
   background-color: #0a3e72;
   font-style: italic;
   color: #FFFFFF;
+  align-items: center;
+}
+
+#Thulasi img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
 }
