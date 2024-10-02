@@ -885,7 +885,7 @@ header {
 }
 
 
-/*sara cubillos*/
+/*sara cubillos's code begin*/
 #SaraC {
   font-family: "Honk", system-ui;
   color: rgb(11, 11, 11);
@@ -905,15 +905,13 @@ header {
   outline-offset: 10px; 
   filter: drop-shadow(0 0 5rem rgba(166, 251, 234, 0.717));
   margin-bottom: 2%;
-
-  
 }
 
 #SaraC img:hover {
   transform: scale(1.1);
   transition: all ease-in-out 3s;
 }
-
+/*sara cubillos's code end*/
 
 
 
