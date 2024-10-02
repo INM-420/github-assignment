@@ -299,8 +299,26 @@ header {
 }
 
 #balaji {
-  background-color: #ffebcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  
+  background-image: url('../img/Bala_BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  font-family: "Sixtyfour Convergence", sans-serif;;
+  font-weight: 800;
+  font-size: 22px;
+  color: white;
+}
 
+#balaji img {
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 #apple {
