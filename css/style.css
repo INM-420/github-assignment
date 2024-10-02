@@ -900,4 +900,6 @@ header {
   width: 200px;
   height: auto;
   border-radius: 10px;
+  border-width: 5px;
+  border-color: #FFFFFF;
 }
