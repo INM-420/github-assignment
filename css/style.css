@@ -932,4 +932,15 @@ header {
 /*sara cubillos's code end*/
 
 
-
+/* Crystal's code */
+#crystalk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fecefa;
+}
+#crystalk img {
+  width: 40%;
+  height: auto;
+  border-radius: 20%;
+}
