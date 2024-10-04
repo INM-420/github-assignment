@@ -304,13 +304,13 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 40px;
-  
+
   background-image: url('../img/Bala_BG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
-  font-family: "Sixtyfour Convergence", sans-serif;;
+
+  font-family: "Sixtyfour Convergence", sans-serif;
   font-weight: 800;
   font-size: 22px;
   color: white;
@@ -385,6 +385,7 @@ header {
   margin-top: 30px;
   color: #333;
 }
+
 /* Circular frame for profile image */
 .profile-container {
   position: relative;
@@ -395,6 +396,7 @@ header {
   height: 350px;
   background-color: #ffffff;
 }
+
 /* Profile image styling */
 .profile-image {
   position: relative;
@@ -405,6 +407,7 @@ header {
   filter: brightness(80%);
   transition: 0.8s ease-in-out;
 }
+
 /* Animation Container */
 .animation-container {
   position: relative;
@@ -413,23 +416,30 @@ header {
   align-items: center;
   margin: 20px auto;
 }
+
 .profile-container:hover .profile-image {
-  filter: brightness(100%); /* Darken the image on hover */
+  /* Darken the image on hover */
+  filter: brightness(100%);
 }
+
 /* a slight scale effect */
 .profile-container:hover {
-  transform: scale(1.05); /* Scale the entire container slightly */
-  transition: 0.8s ease-in-out; /* Smooth transition */
+  /* Scale the entire container slightly */
+  transform: scale(1.05);
+  /* Smooth transition */
+  transition: 0.8s ease-in-out;
 }
+
 #lottie-animation {
   position: absolute;
   width: 550px;
   height: 550px;
   top: -10px;
-  left:-90px;
+  left: -90px;
   justify-content: center;
   z-index: 1;
 }
+
 /* Didemfin */
 
 #thulasi {
@@ -944,12 +954,13 @@ header {
   font-style: normal;
   transition: background-color 0.3s ease;
 }
+
 #peiwen:hover {
-  background-color: #c7dfd4; 
+  background-color: #c7dfd4;
 }
 
 #peiwen img {
-  width: 300px; 
+  width: 300px;
   height: auto;
   border-radius: 10px;
   margin-top: 10px;
@@ -970,10 +981,10 @@ header {
 }
 
 #SaraC img {
-  width:50%;
+  width: 50%;
   border-radius: 30%;
   outline: 5px solid #9cf7e6;
-  outline-offset: 10px; 
+  outline-offset: 10px;
   filter: drop-shadow(0 0 5rem rgba(166, 251, 234, 0.717));
   margin-bottom: 2%;
 }
@@ -982,7 +993,24 @@ header {
   transform: scale(1.1);
   transition: all ease-in-out 3s;
 }
+
 /*sara cubillos's code end*/
 
+/* Nicole Pacheco styled name */
+#nicole-pacheco {
+  background: url('../img/kiki.jpeg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
 
-
+#nicole-pacheco h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", sans-serif;
+  font-weight: bold;
+  color: #6a0dad;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
