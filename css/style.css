@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
 
 
 /* style resets */
@@ -379,6 +380,7 @@ header {
   background-color: #c6ecc6;
 }
 
+
 #thulasi {
   background-color: #b3b3ff;
 }
@@ -390,7 +392,30 @@ header {
 #peiwen {
   background-color: #c1f0f0;
 }
+/* Eema's Styling  */
+#Eema {
+  background-color: #0080ff;
+  border-radius: 5px;
+}
 
+
+#eemaspic{ 
+  width: 80%;
+  border-radius: 50%;
+
+}
+
+
+#EemasName{ 
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+}
+
+#gifEema{ 
+  width: 40%;
+}
 /* Nabin's card styling from here */
 .card {
   margin: auto;
