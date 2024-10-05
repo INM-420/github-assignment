@@ -991,3 +991,21 @@ header {
   font-size: 50px;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
+
+/* wing yiu tang*/
+#wingyiu {
+  color: white;
+  background-color: rgb(68, 86, 64);
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#wingyiu img {
+  width: 50%;
+  border-radius: 30px;
+  margin: 20px 0px;
+}
+
+/* wing yiu tang ends*/
